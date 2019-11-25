@@ -10,39 +10,136 @@
     <meta name="author" content="Pedo Menezes">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/image/silvião.png">
 </head>
 <body>
     
-        <div class="row">
-            <div class="col-3"> 
-                <img src="assets/image/silvião.png" alt="Foto Principal"     class="img-thumbnail foto">
+        <div class="row ">
+            <div class="col-md-2"> 
+                <img src="assets/image/silvião.png" alt="Foto Principal"     class="img-thumbnail foto ">
+            </div> 
+
+            <div class="col-md-5">
+                <header class="Titulo">
+                    <img src="assets/image/Untitled.png" alt="Titulo"     class="img-thumbnail foto FT" > 
+                </header> 
             </div>
-                <div class="col-9">
-                    <header>
-                        <img src="assets/image/Untitled.png" alt="Foto Principal"     class="img-thumbnail foto"> 
-                    </header> 
-                </div>
-            
+
+            <div class="navbar col-md-5 ps">
+                <form class="form-inline ps">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
             
         </div>
     
-        <nav>
+        <div class="row">
+            <div class="col-md-2">
+                <nav>
+                    <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contato</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Cadastro</a>
+                            </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-10 ">
+                <div class="conteudo">
+                    <h1 id="titulo01">Conteudo do Dia</h1>
+                    <div class="center">    
+                    <div id="carouselExampleIndicators" class="carousel slide es mt-5" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active">
+                            <img src="assets/image/silvio-santos-reproducao.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="assets/image/silvio-santos-na-globo.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="assets/image/silvio-santos-4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                </div>
+            </div>  
+            <div class="card mb-3 mt-5 ">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                    <img src="assets/image/silvio-santos-na-globo.jpeg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Maooooeeeee</h5>
+                            <p class="card-text"> Silvio Santos Ipsum Patríciaaammmm... Luiz Ricardouaaammmmmm. Ma você, topa ou não topamm. É por sua conta e riscoamm? Ma tem ou não tem o celular do milhãouamm? Ha haeeee. Hi hi. Valendo um milhão de reaisammm. Wellintaaammmmmmmmm.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3  mt-5" >
+                <div class="row no-gutters">
+                    <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title"> O Raul Gil é gayamm!</h5>
+                        <p class="card-text"> Silvio Santos Ipsum Ha haeeee. Hi hi. É por sua conta e riscoamm? Mah roda a roduamm. Vem pra lá, mah você vai pra cá. Agora vai, agora vem pra láamm. Ha hai. Bem boladoam, bem boladoam. Bem gozadoam. Ma não existem mulher feiam, existem mulher que não conhece os produtos Jequitiamm. O Raul Gil é gayam! ... Maa O Ah Ae! Ih Ih! O Raul Gil é gayamm!</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/image/silvio-santos-reproducao.jpg" class="card-img" alt="...">
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 mt-5 ">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                    <img src="assets/image/silvio-santos-4.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">rodutos Jequitiamm</h5>
+                            <p class="card-text"> Silvio Santos Ipsum Ma quem quer dinheiroam? Ma! Ao adquirir o carnê do Baú, você estará concorrendo a um prêmio de cem mil reaisam. Ha haeeee. Hi hi. Eu não queria perguntar isso publicamente, ma vou perguntar. Carla, você tem o ensino fundamentauam? Ma vejam só, vejam só. Um, dois três, quatro, PIM, entendeuam? Ma não existem mulher feiam, existem mulher que não conhece os produtos Jequitiamm.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+        
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
                 
-                <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Cadastro</a>
-                        </li>
-                </ul>
-            </nav>
-    </div>
 </body>
 </html>

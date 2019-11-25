@@ -10,6 +10,7 @@ body{
 nav{
     position: fixed;
 }
+
 header{
     width: 100%;
 }
@@ -19,18 +20,87 @@ header{
     border: none;
     
 }
-.Titulo{
-    text-align: center;
-    font-family: cursive;
-    padding-top: 20px;
-    position: relative;
 
+.Titulo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.FT{
+    margin-top: 0.75%;
+}
+
+.ps{
+    background-color: #FFF2EAE1;
+    padding-top: 0.75%;
 
 }
 
-.teste{
-    display: flex;
-    flex-direction: row;
-    width: '100%';
+.navbar{
+    display: inline;
+}
 
+form{
+    display: inline;
+    justify-content: center;
+}
+
+.cr{
+    display: flex;
+    justify-content: center;
+
+}
+
+.es{
+    width: 70%;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.If01
+{
+    padding-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.ff{
+    width: 100%;
+}
+
+.pt{
+    width: 40%;
+}
+
+.td{
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo01{
+    text-align: center;
+    font-family: cursive;
+    font-size: 350%;
+    color: #4f4f4f;
+}
+
+.card{
+    width: 95%;
+    background-color: #FFF2EAE1;
+    margin-left: 5%;
+
+}
+
+.margin{
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 5%;
 }
